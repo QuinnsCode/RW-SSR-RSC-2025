@@ -14,7 +14,7 @@ export const Counter = () => {
   return (
     <>
       <Metadata
-        title="RSC + SSR Home"
+        title="RSC + SSR Demo"
         description="Demonstrates React Server Components and Server Side Rendering in RedwoodJS"
         og={{
           image:
