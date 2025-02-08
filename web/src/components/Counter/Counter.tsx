@@ -2,17 +2,17 @@
 
 import React from 'react'
 
-import { delay } from 'src/lib/delay'
+// import { delay } from 'src/lib/delay'
 
 // @ts-expect-error no types
 import styles from './Counter.module.css'
 
 import './Counter.css'
 
-export const Counter = async () => {
+export const Counter = () => {
   const [count, setCount] = React.useState(0)
 
-  await delay(1000)
+  // await delay(1000)
 
   return (
     <>
