@@ -14,9 +14,9 @@ import { Set } from '@redwoodjs/router/dist/Set'
 import { Router } from '@redwoodjs/vite/Router'
 
 import NavigationLayout from 'src/layouts/NavigationLayout'
-import AboutPage from 'src/pages/AboutPage'
-import HomePage from 'src/pages/HomePage'
-import NotFoundPage from 'src/pages/NotFoundPage'
+// import AboutPage from 'src/pages/AboutPage'
+// import HomePage from 'src/pages/HomePage'
+// import NotFoundPage from 'src/pages/NotFoundPage'
 
 const Routes = ({ location }: { location?: any }) => {
   return (
