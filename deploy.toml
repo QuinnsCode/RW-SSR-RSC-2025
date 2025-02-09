@@ -50,17 +50,16 @@
 # processNames = ["web"]
 
 [[production.servers]]
-# Update the host, user, and password
+#
 host = "${DEPLOY_HOST}"
 username = "${DEPLOY_USERNAME}"
-password = "${DEPLOY_PASSWORD}" # THIS LINE NEEDS TO BE ADDED DO NOT MISS THIS LINE
+password = "${DEPLOY_PASSWORD}"
 agentForward = false # THIS LINE NEEDS TO SET TO FALSE TO USE USER/PASS
 sides = ["api", "web"]
 packageManagerCommand = "yarn"
 monitorCommand = "pm2"
 path = "/var/www/app"
-processNames = ["api"]
-# Update the repo
+processNames = ["serve"]
 repo = "git@github.com:QuinnsCode/RW-SSR-RSC-2025.git"
 branch = "main"
 keepReleases = 3
